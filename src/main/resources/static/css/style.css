@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+}
+
+.login-container {
+    text-align: center;
+}
+.login-container {
+	height:150px;
+	width:100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.login-form {
+	
+    text-align: center;
+}

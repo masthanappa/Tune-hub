@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .customer-home-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+  }
+  
+  .Get-premium,
+  .logout-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Get-premium {
+    background-color: #4caf50;
+  }
+  
+  .logout-btn {
+    background-color: #d9534f;
+  }
+  
+  .Get-premium:hover,
+  .logout-btn:hover {
+    opacity: 0.8;
+  }
